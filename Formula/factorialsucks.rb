@@ -5,25 +5,25 @@
 class Factorialsucks < Formula
   desc "FactorialHR auto clock in for the whole month from the command line."
   homepage "https://github.com/alejoar/factorialsucks/"
-  version "2.0.1"
+  version "2.0.2"
   license "MIT"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.1/factorialsucks_2.0.1_Darwin_x86_64.tar.gz"
-    sha256 "069969d95fc14ee591c07884dc829ed5e7b5162f6dcd4f35f59ed46babf11af3"
+    url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Darwin_x86_64.tar.gz"
+    sha256 "5040e23d6ae71bb9a26e14639e217f7a04de8e908d6ce19d35bcd6ea7af4e663"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.1/factorialsucks_2.0.1_Darwin_arm64.tar.gz"
-    sha256 "ae34a00cf3fe2035d1ee0bab6f11d95c33fc67d774cfc55d878b1df60fe788c3"
+    url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Darwin_arm64.tar.gz"
+    sha256 "5da31b1e32812da5371fcbb0b45268f7cddde7d252758bfd0c0e5d1f97fe6713"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.1/factorialsucks_2.0.1_Linux_x86_64.tar.gz"
-    sha256 "aa9523337d81d6bbc474858dce006235b2bbb3dc11db6fa237b8fc592d14cb17"
+    url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Linux_x86_64.tar.gz"
+    sha256 "95f83f6feae52621a6eec500ba74e675336fd1190f546cde507bc9ee814a47c7"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.1/factorialsucks_2.0.1_Linux_arm64.tar.gz"
-    sha256 "623329fac006ed01039cce4cdaad2678d51242c6ef6a92ab70f3e60de97f23fa"
+    url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Linux_arm64.tar.gz"
+    sha256 "f5fbb77e1fc487cfdc49479592efa41d20ef42123c0baa154007bfea7c2fbf2c"
   end
 
   def install
