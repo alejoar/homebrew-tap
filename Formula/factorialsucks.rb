@@ -11,7 +11,7 @@ class Factorialsucks < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Darwin_arm64.tar.gz"
-      sha256 "c9ee64acbc6310de68cce3db63b6c98705ee4868a457b08adb047281b20149a9"
+      sha256 "5da31b1e32812da5371fcbb0b45268f7cddde7d252758bfd0c0e5d1f97fe6713"
 
       def install
         bin.install "factorialsucks"
@@ -19,7 +19,7 @@ class Factorialsucks < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Darwin_x86_64.tar.gz"
-      sha256 "2523d97d20698de4e605d1a6168ff75b82e0d4b2ee72939dbbae3526784951a7"
+      sha256 "5040e23d6ae71bb9a26e14639e217f7a04de8e908d6ce19d35bcd6ea7af4e663"
 
       def install
         bin.install "factorialsucks"
@@ -30,7 +30,7 @@ class Factorialsucks < Formula
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Linux_arm64.tar.gz"
-      sha256 "ddcbf5332c631f5ee713437aebc9915227ac2ea114b71160deea4c469f0e422e"
+      sha256 "f5fbb77e1fc487cfdc49479592efa41d20ef42123c0baa154007bfea7c2fbf2c"
 
       def install
         bin.install "factorialsucks"
@@ -38,7 +38,7 @@ class Factorialsucks < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Linux_x86_64.tar.gz"
-      sha256 "a47eb91cc0a8cbcb9074e088a22c93cf3b3cfd02290e8bb3a0020fd0e33ddf98"
+      sha256 "95f83f6feae52621a6eec500ba74e675336fd1190f546cde507bc9ee814a47c7"
 
       def install
         bin.install "factorialsucks"
