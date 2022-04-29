@@ -5,21 +5,21 @@
 class Factorialsucks < Formula
   desc "FactorialHR auto clock in for the whole month from the command line."
   homepage "https://github.com/alejoar/factorialsucks/"
-  version "2.0.2"
+  version "2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Darwin_arm64.tar.gz"
-      sha256 "5da31b1e32812da5371fcbb0b45268f7cddde7d252758bfd0c0e5d1f97fe6713"
+      url "https://github.com/alejoar/factorialsucks/releases/download/v2.1/factorialsucks_2.1_Darwin_arm64.tar.gz"
+      sha256 "c5bd690b87b6661f174370bea52c3f1d5b0aa3aab0313bf0ee1a15027947e4ea"
 
       def install
         bin.install "factorialsucks"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Darwin_x86_64.tar.gz"
-      sha256 "5040e23d6ae71bb9a26e14639e217f7a04de8e908d6ce19d35bcd6ea7af4e663"
+      url "https://github.com/alejoar/factorialsucks/releases/download/v2.1/factorialsucks_2.1_Darwin_x86_64.tar.gz"
+      sha256 "cb1456f745f94ce1ee364413836dab28d5a327626fc49c1f4dee22167f4a3ed0"
 
       def install
         bin.install "factorialsucks"
@@ -29,16 +29,16 @@ class Factorialsucks < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Linux_arm64.tar.gz"
-      sha256 "f5fbb77e1fc487cfdc49479592efa41d20ef42123c0baa154007bfea7c2fbf2c"
+      url "https://github.com/alejoar/factorialsucks/releases/download/v2.1/factorialsucks_2.1_Linux_arm64.tar.gz"
+      sha256 "90a37e22e48cb2fc6ef96872d2f1cedb779f9aaf6d9e7c642c2435a5655f129b"
 
       def install
         bin.install "factorialsucks"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/alejoar/factorialsucks/releases/download/v2.0.2/factorialsucks_2.0.2_Linux_x86_64.tar.gz"
-      sha256 "95f83f6feae52621a6eec500ba74e675336fd1190f546cde507bc9ee814a47c7"
+      url "https://github.com/alejoar/factorialsucks/releases/download/v2.1/factorialsucks_2.1_Linux_x86_64.tar.gz"
+      sha256 "6893e1a7fa368422d64766892afea89b40b2aecf8a612d2c934d50cdd94c8efd"
 
       def install
         bin.install "factorialsucks"
